@@ -1,0 +1,25 @@
+.login-form-part {
+  background-color: #f9fafb;
+  font-family: 'open-sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 83vh;
+  margin-top: 100px;
+}
+.container-form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+.container-form h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+.form-all {
+  padding: 30px 40px;
+}
+.error_message {
+  color: rgb(163, 8, 8);
+}

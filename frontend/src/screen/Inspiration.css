@@ -1,0 +1,37 @@
+.inspiration {
+  background-color: #454a4e;
+  width: 90%;
+  height: 200px;
+  margin: 10px auto;
+  /* margin: 0 0 40px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.inspiration p {
+  font-size: 25px;
+  width: 600px;
+  margin-left: 80px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+}
+.inspiration p strong {
+  color: #fcc102;
+  font-weight: 900;
+  font-size: 20px;
+}
+.inspiration p span {
+  position: absolute;
+  color: #fcc102;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .inspiration {
+    display: none;
+  }
+}

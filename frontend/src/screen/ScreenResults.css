@@ -1,0 +1,160 @@
+
+
+/* .user__list{
+
+    width: 80%;
+    margin-left:10% ;
+    
+} */
+
+
+
+.add_post{
+    position:absolute;
+    right:130px;
+    top:180px;
+    right: 20px;
+    padding: 8px;
+    border: 1px solid seagreen;
+    font-size: 20px;
+  }
+  .add_post:hover{
+    cursor: pointer;
+    background-color: #323d;
+    color: #dddddd;
+  }
+  
+  
+  
+  /* 
+  .user__list table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+  
+    .user__list  th{
+        background-color: green;
+        color: #dddddd;
+        padding: 10px;
+        margin: 20px;
+    }
+  .user__list td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      margin: 20px;
+    }
+    
+    .user__list tr:hover {
+      background-color: #dddddd;
+      cursor: pointer;
+    }
+  
+    @media (max-width: 768px) {
+      .user__list{
+          margin-top:130px;
+          width: 95%;
+          margin-left:2.5% ;
+          
+      }
+  
+      .user__list td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 5px;
+          margin: 5px;
+        }
+  
+        .user__list  th{
+          background-color: green;
+          color: #dddddd;
+          padding: 5px;
+          margin: 8px;
+      }
+  
+      
+    } */
+  
+    table { 
+      width: 90%;
+      margin-left:5% ;
+      border-collapse: collapse; 
+    }
+    /* Zebra striping */
+    tr:nth-of-type(odd) { 
+      background: #eee; 
+    }
+    th { 
+      background: seagreen; 
+      color: white; 
+      font-weight: bold; 
+    }
+    td, th { 
+      padding: 6px; 
+      border: 1px solid #ccc; 
+      text-align: left; 
+    }
+  
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+    
+      /* Force table to not be like tables anymore */
+      table, thead, tbody, th, td, tr { 
+        display: block; 
+        word-break:break-all;
+        
+      }
+      
+      /* Hide table headers (but not display: none;, for accessibility) */
+      thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+       
+      }
+      
+      .candidate__list tr{
+        margin: 20px; 
+    }
+  
+    .candidate__list  tr:nth-of-type(odd) { 
+      background: rgb(16, 37, 25); 
+      color: #fff;
+      
+    }
+    .MuiSvgIcon-fontSizeSmall {
+      color: seagreen;
+      
+    }
+      
+      tr { border: 1px solid #333; }
+      
+      td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid seagreen ; 
+        position: relative;
+        padding-left: 50%; 
+      }
+      
+      td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+      }
+  
+    
+        .candidate__list_screen td:nth-of-type(1):before { content: "Post:"; }
+      .candidate__list_screen td:nth-of-type(2):before { content: "Name:"; }
+      .candidate__list_screen td:nth-of-type(3):before { content: "Address:"; }
+      .candidate__list_screen td:nth-of-type(4):before { content: "Casts:"; }
+
+      
+    }   

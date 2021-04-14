@@ -1,0 +1,86 @@
+.howtoca {
+  min-height: 250px;
+}
+.howtoca section {
+  /* margin: 20px auto; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.cover {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  right: -40px;
+  top: 130px;
+}
+
+.howtoca section h3 {
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 260px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 25%;
+}
+
+.pad-image-ca {
+  display: inline-block;
+  background-color: darkgreen;
+  color: #444;
+  width: 50%;
+}
+.pad-image-ca p {
+  position: absolute;
+  width: 300px;
+  top: 330px;
+  left: 370px;
+  font-size: large;
+  color: #fff;
+}
+.pad-image-ca:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.pad-image-ca p button {
+  margin-left: 50px;
+  padding: 20px 40px;
+  background-color: #444;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.pad-image-ca img {
+  margin-left: -20px;
+  margin-top: 60px;
+  width: 400px;
+  height: 400px;
+}
+
+.pad-image-ca p button:hover {
+  background-color: #ffff;
+  color: #3f3d56;
+  font-weight: 900;
+  transition: 0.5s;
+  border: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+  .register {
+    font-size: 15px !important;
+  }
+  .lelf-cover img {
+    display: none;
+  }
+  .right-cover {
+    margin-left: 30px !important;
+  }
+}

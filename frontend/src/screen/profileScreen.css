@@ -1,0 +1,102 @@
+.main-post-details_profile {
+  margin-top: 100px;
+  position: relative;
+}
+
+.section-image_profile img {
+  width: 350px;
+  height: 350px;
+  margin-top: 30px;
+  margin-left: 100px;
+  border-radius: 100%;
+}
+.section-image_profile button {
+  width: 20%;
+  position: absolute;
+  left: 150px;
+  bottom: -60px;
+  padding: 10px;
+  border: none;
+  background-color: seagreen;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.section-image_profile button:hover {
+  cursor: pointer;
+  background: saddlebrown;
+}
+
+.section-description_profile {
+  background-color: #dddd;
+  position: absolute;
+  padding-left: 10px;
+  width: 50%;
+  right: 40px;
+  top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.section-description_profile p,
+h2 {
+  color: #333;
+  padding: 10px;
+  font-size: 20px;
+}
+.section-description_profile span {
+  margin-right: 10px;
+}
+
+.btn-profile {
+  position: relative;
+  margin-left: 30px;
+}
+
+.btn1 {
+  position: absolute;
+  left: 30px;
+  width: 180px;
+  top: 0px;
+}
+
+.btn2 {
+  position: absolute;
+  left: 250px;
+  width: 180px;
+  top: 0px;
+}
+
+@media (max-width: 768px) {
+  .main-post-details_profile {
+    height: 800px;
+  }
+
+  .section-description_profile {
+    background-color: #dddd;
+    position: absolute;
+    padding-left: 10px;
+    width: 90%;
+    margin-left: 10%;
+    right: -5%;
+    top: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .section-description_profile p,
+  h2 {
+    color: #333;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .btn1 {
+    padding: 20px;
+    position: absolute;
+    left: 5px;
+    top: -400px;
+  }
+  .vote-button button {
+    width: 40%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,41 @@
+.post-item {
+  display: grid;
+  width: 70%;
+  margin: 130px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr;
+  grid-template-areas: 'image description candidates';
+  grid-column-gap: 0.4rem;
+}
+
+.cols {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
+  height: 300px;
+}
+
+.grid__col4 {
+  background-color: #125;
+  grid-area: image;
+}
+.grid__col img {
+  width: 200px;
+}
+
+.grid__col3 {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid__col5 {
+  background-color: #673;
+  grid-area: candidates;
+}
+@media (max-width: 768px) {
+  .post-item {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 1.2fr;
+    grid-template-areas: 'image' 'description' 'candidates';
+  }
+}

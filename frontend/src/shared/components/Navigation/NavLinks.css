@@ -1,0 +1,194 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 360px;
+}
+
+.nav-link-with-noUser {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 360px;
+}
+
+.nav-link-with-noUser li img {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  background-color: none;
+}
+
+.nav-links li img {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  background-color: none;
+}
+.image-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.nav-links li {
+  margin: 1rem;
+  font-size: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-link-with-noUser li {
+  margin: 1rem;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.color-active {
+  border: 1px solid transparent;
+  color: #292929;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 3px;
+}
+
+.color-active:hover,
+.color-active:active,
+.color-active.active {
+  background-color: #444;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 00.6);
+  border-radius: 4px;
+}
+.logout {
+  background-color: #292929;
+  position: relative;
+  display: inline;
+}
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  z-index: 2;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
+
+.nav-links button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #292929;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+.nav-link-with-noUser button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #292929;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+.nav-links button:focus {
+  outline: none;
+}
+.nav-link-with-noUse button:focus {
+  outline: none;
+}
+.nav-links button:hover,
+.nav-links button:active {
+  background: darkgreen;
+  color: #fff;
+}
+
+@media only screen and (min-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .nav-links {
+    flex-direction: row;
+  }
+  .nav-link-with-noUser {
+    flex-direction: row;
+  }
+
+  .nav-links li {
+    margin: 0 0.5rem;
+  }
+  .nav-link-with-noUser li {
+    margin: 0 0.5rem;
+  }
+  .nav-links a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .nav-link-with-noUser a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .nav-links button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+
+  .nav-links button:hover,
+  .nav-links button:active {
+    background: darkgreen;
+    color: #fff;
+  }
+  .nav-links img {
+    visibility: visible;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 1024px) {
+  .nav-links img {
+    visibility: visible;
+  }
+  .nav-links li img {
+    width: 105px;
+    height: 105px;
+    top: 10px;
+    left: 100px;
+  }
+  .nav-link-with-noUser img {
+    visibility: hidden;
+  }
+  .nav-link-with-noUser a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .nav-links a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}

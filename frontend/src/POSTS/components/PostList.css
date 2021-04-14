@@ -1,0 +1,27 @@
+.posts-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.post-active {
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.post-active h1 {
+  font-weight: 200;
+  font-family: serif;
+  margin: 10px 0 10px;
+}
+@media (max-width: 768px) {
+  .posts-list {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -18px;
+    /* margin-left: 20px; */
+  }
+}

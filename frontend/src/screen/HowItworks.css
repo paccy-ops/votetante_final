@@ -1,0 +1,73 @@
+.how-it-works {
+  /* height: 40px */
+  background-color: #fff;
+  margin-left: 25%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  margin-top: 20px
+}
+
+.how-it-works > div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
+}
+.how-it-works > div img {
+  width: 100px;
+  height: 100px;
+}
+
+.how-it-works {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.how-it-works h1 {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.how-it-works h1:hover {
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.how-it-works {
+  position: relative;
+  display: inline-block;
+}
+
+.how-it-works section img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -530px;
+  top: 10px;
+}
+.how-it-works section h5 {
+  position: absolute;
+  font-size: 20px;
+  top: 90px;
+  left: -20px;
+}
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 900;
+}
+
+.how-it-works > div img {
+  margin-top: -10px;
+}
+.how-it-works > div img:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .how-it-works {
+    margin-left: 2%;
+  }
+}

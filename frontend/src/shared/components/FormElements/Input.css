@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+:root {
+  --success-color: #24aa5c;
+  --error-color: #e74c3c;
+}
+
+.form {
+  padding: 30px 40px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+}
+form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+form-control textarea:focus {
+  outline: 0;
+  border-color: #777;
+}
+.form-control--valid input {
+  border-color: var(--success-color);
+}
+.form-control--invalid input {
+  border-color: var(--error-color);
+}
+.form-control--valid textarea {
+  border-color: var(--success-color);
+}
+.form-control--invalid textarea {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: visible;
+}
+.form-control.error small {
+  visibility: visible;
+}

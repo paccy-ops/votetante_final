@@ -1,0 +1,94 @@
+.posts {
+  background-color: rgb(214, 212, 207);
+  margin: 10px 10px;
+  border-radius: 40px;
+  display: inline-block;
+  width: 300px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.goBack {
+  position: absolute;
+  background-color: seagreen;
+  border: none;
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+}
+
+.goBack:hover {
+  cursor: pointer;
+  background-color: #3f3d56;
+}
+
+.posts:hover {
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  color: #3f3d56;
+}
+
+.posts h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.posts img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+.posts {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color: #444;
+  font-size: 10px;
+}
+.posts p {
+  width: 200px;
+  text-align: left;
+  margin-left: 60px;
+  color: #3f3d56;
+  /* padding: 10px; */
+  font-size: 10px;
+}
+.posts h5 {
+  font-size: 10px;
+
+  font-weight: 900;
+}
+
+.posts h4 {
+  font-size: 10px;
+  font-weight: 900;
+  color: seagreen;
+}
+.posts h6 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.posts h6 span {
+  margin-left: 10px;
+  color: #fcc102;
+}
+.posts button {
+  margin-top: -20px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #444;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: 1px solid #444;
+}
+.posts button:hover {
+  color: #3f3d56;
+  background-color: #fff;
+  transition: 0.3s;
+  font-weight: 900;
+}
